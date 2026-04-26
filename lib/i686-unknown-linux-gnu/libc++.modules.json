@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a6e5422724e82ee365cdafd73eca17e0987c60fee96c501482240e23b30c5a01
-size 561
+{
+  "version": 1,
+  "revision": 1,
+  "modules": [
+    {
+      "logical-name": "std",
+      "source-path": "../../share/libc++/v1/std.cppm",
+      "is-std-library": true,
+      "local-arguments": {
+        "system-include-directories": [
+          "../../share/libc++/v1"
+        ]
+      }
+    },
+    {
+      "logical-name": "std.compat",
+      "source-path": "../../share/libc++/v1/std.compat.cppm",
+      "is-std-library": true,
+      "local-arguments": {
+        "system-include-directories": [
+          "../../share/libc++/v1"
+        ]
+      }
+    }
+  ]
+}
