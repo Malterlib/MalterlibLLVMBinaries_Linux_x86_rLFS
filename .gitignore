@@ -3,3 +3,4 @@
 /bin/libtool
 /lib/clang/*/lib/*-unknown-linux-gnu
 /lib/clang/*/lib/.lock
+!/lib/clang/*/lib/i386-unknown-linux-gnu
